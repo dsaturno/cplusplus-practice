@@ -28,7 +28,7 @@ void Reverse(string &my_string) {
 
 	// For each character in my_string...
 	for (char &i : my_string) {
-		i = S.top(); // Overwrite character at [i]
-		S.pop();        // And perform pop
+		i = S.top(); // Overwrite i
+		S.pop();     // And perform pop
 	}
 }
